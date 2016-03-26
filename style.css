@@ -262,23 +262,147 @@
 }
 
 .one-price {
-	height: 700px;
+	width: 100%;
 	background: linear-gradient(to bottom, #f68a2e ,#f25852);
+	color: white;
+	padding-top: 75px;
+}
+
+.price-card-header {
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+.price {
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+
+#price-number {
+	font-size: 45px;
+}
+
+.divider {
+	height: 2px;
+	width: 70px;
+	margin: auto;
+	margin-bottom: 30px;
+	background-color: #ffae1c;
+
+}
+.price-card-list {
+	margin-right: 20%;
+	margin-left: 30%;
+	font-size: 90%;
+	margin-bottom: 50px;
+}
+
+.price-card-list p {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.one-price-button {
+	width: 180px;
+	padding: 12px 0 12px 0;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 65px;
+	background-color: #ffae1c;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	font-family: 'open sans', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
 }
 
 .try-for-free {
-	height: 700px;
 	background: linear-gradient(to bottom, #21abc7 ,#616db3);
+	width: 100%;
+	color: white;
+	padding-top: 75px;
+}
+
+.divider-2 {
+	height: 2px;
+	width: 70px;
+	margin: auto;
+	margin-bottom: 30px;
+	background-color: #21abc7;
+}
+
+.free-button {
+	width: 180px;
+	padding: 12px 0 12px 0;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 65px;
+	background-color: #21abc7;
+	border: solid 2px #21abc7;
+	border-radius: 20px;
+	color: white;
+	font-family: 'open sans', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
 }
 
 .main-footer {
-	height: 700px;
-	background: black;
+	padding: 4%;
+	padding-top: 20px;
+	background: #2D3033;
+	text-align: left;
+	color: #AEBDC1;
 }
 
-@media only screen and (min-width: 800px) {
+.main-footer li {
+	margin-bottom: 10px;
+}
+
+.main-footer img {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.link-buttons {
+	width: 140px;
+	height: 30px;
+}
+
+.grey-logo {
+	width: 200px;
+	height: 50px;
+}
+
+.code-school-span {
+	font-weight: 600;
+}
+
+.main-footer p {
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.learn {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+
+
+
+@media only screen and (min-width: 850px) {
 	.link-boxes {
 		width: 48%;
 		display: inline-block;
+	}
+	
+	.one-price, .try-for-free {
+		width: 50%;
+		height: 460px;
+		display: inline-block;
+		float: left;
 	}
 }
